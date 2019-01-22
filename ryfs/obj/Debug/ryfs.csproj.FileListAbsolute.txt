@@ -1,0 +1,10 @@
+C:\github\ryfs\ryfs\bin\Debug\ryfs.exe.config
+C:\github\ryfs\ryfs\bin\Debug\ryfs.exe
+C:\github\ryfs\ryfs\bin\Debug\ryfs.pdb
+C:\github\ryfs\ryfs\obj\Debug\ryfs.csprojAssemblyReference.cache
+C:\github\ryfs\ryfs\obj\Debug\ryfs.Form1.resources
+C:\github\ryfs\ryfs\obj\Debug\ryfs.Properties.Resources.resources
+C:\github\ryfs\ryfs\obj\Debug\ryfs.csproj.GenerateResource.cache
+C:\github\ryfs\ryfs\obj\Debug\ryfs.csproj.CoreCompileInputs.cache
+C:\github\ryfs\ryfs\obj\Debug\ryfs.exe
+C:\github\ryfs\ryfs\obj\Debug\ryfs.pdb
