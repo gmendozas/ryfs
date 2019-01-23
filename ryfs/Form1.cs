@@ -15,16 +15,16 @@ namespace ryfs
 {
     public partial class Form1 : Form
     {
-        List<string> _items = new List<string>();
+        private Dictionary<string, string> _scripts = new Dictionary<string, string>();
+        private JPropertiesFileReader jReader;
 
         public Form1()
         {
-            InitializeComponent();
-            _items.Add("One"); // <-- Add these
-            _items.Add("Two");
-            _items.Add("Three");
+            jReader = new JPropertiesFileReader("scripts_properties.json");
+            _scripts = jReader.ReadFileContent();
 
-            scriptsListBox.DataSource = _items;
+            InitializeComponent();
+            scriptsListBox.DataSource = _scripts.Keys.ToArray<string>();
         }
 
         private void runButton_Click(object sender, EventArgs e)
@@ -56,12 +56,12 @@ namespace ryfs
 
         private void addScriptButton_Click(object sender, EventArgs e)
         {
-            if(!object.Equals(null, _items))
-            {
-                _items.Add(string.Format("Script{0}", (_items.Count + 1).ToString()));
-                scriptsListBox.DataSource = null;
-                scriptsListBox.DataSource = _items;
-            }
+            //if(!object.Equals(null, _items))
+            //{
+            //    _items.Add(string.Format("Script{0}", (_items.Count + 1).ToString()));
+            //    scriptsListBox.DataSource = null;
+            //    scriptsListBox.DataSource = _items;
+            //}
         }
 
         private void scriptsListBox_DoubleClick(object sender, EventArgs e)

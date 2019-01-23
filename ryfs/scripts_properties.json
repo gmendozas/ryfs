@@ -1,0 +1,14 @@
+[
+  {
+    "Key": "Shutdown",
+    "Value": "C:\\scripts\\shutdown.bat"
+  },
+  {
+    "Key": "Services GCSM Station",
+    "Value": "C:\\scripts\\services.bat"
+  },
+  {
+    "Key": "ping",
+    "Value": "C:\\scripts\\special_ping.bat"
+  }
+]

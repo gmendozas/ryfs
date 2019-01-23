@@ -8,3 +8,8 @@ C:\github\ryfs\ryfs\obj\Debug\ryfs.csproj.GenerateResource.cache
 C:\github\ryfs\ryfs\obj\Debug\ryfs.csproj.CoreCompileInputs.cache
 C:\github\ryfs\ryfs\obj\Debug\ryfs.exe
 C:\github\ryfs\ryfs\obj\Debug\ryfs.pdb
+C:\github\ryfs\ryfs\bin\Debug\scripts_properties.json
+C:\github\ryfs\ryfs\bin\Debug\Newtonsoft.Json.dll
+C:\github\ryfs\ryfs\bin\Debug\Newtonsoft.Json.pdb
+C:\github\ryfs\ryfs\bin\Debug\Newtonsoft.Json.xml
+C:\github\ryfs\ryfs\obj\Debug\ryfs.csproj.CopyComplete
